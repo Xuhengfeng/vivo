@@ -1,0 +1,410 @@
+  /* 公共样式 */
+  /* 让链接在 hover 状态下显示下划线 */ 
+  a:link{
+  text-decoration:none;
+  }
+  a:visited{
+  text-decoration:none;
+  }
+  a:hover{
+  text-decoration:none;
+  }
+  a:active{
+  text-decoration:none;
+  }
+  ul{
+    list-style: none;
+  }
+  .navbars{
+    position:fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    min-height: 80px;
+    background: #fff;
+    border: 0px;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  .navbars ul>li>a{
+    display: block;
+    height: 80px;
+    line-height: 60px;
+    font-size: 16px; 
+  }
+  .navbars ul>li>a:hover{
+    background: #008cd6 !important;
+    color:#fff !important;; 
+  }
+  .navbars .navbar-brand{
+    display: block;
+    height: 80px;
+    padding-top: 30px;
+  }
+ /*  轮播图 */
+  .swiper-container{
+    margin-top:80px; 
+
+ }
+  .swiper-container img{
+    width: 100%;
+ }
+ /* 广告 */
+ .pic div {
+    padding:0;
+  }
+/* 活动 */
+  .main1{
+    overflow: hidden;
+    padding-top: 100px;
+    background: #f6f7f8;
+  } 
+  .main1 h2 a{
+    display:inline-block;
+    font-size:20px;
+    border:2px solid #999;
+    padding: 5px 12px;
+    margin-left: 20px;
+    border-radius: 15px;
+    color:  #999;
+  }
+  .main1 h2 a:hover{
+  color:#4280f4;
+   border-color:#4280f4;
+  }
+
+  .main1 .row a{
+    color: #000;
+  }
+  .main1 .row a img{
+    width: 100%;
+  }
+   .main1 .row a p{
+    color: #999;
+  }
+  .main1 .row strong {
+    display: block;
+    margin: 0 5px;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+    position: relative;
+
+  }
+/* 动态 */
+  .main2{
+  padding-top: 100px;
+  background: #f6f7f8;
+  } 
+  .main2 h2 a{
+  display:inline-block;
+  font-size:20px;
+  border:2px solid #999;
+  padding: 5px 12px;
+  margin-left: 20px;
+  border-radius: 15px;
+  color:  #999;
+  }
+  .main2 h2 a:hover{
+    color:#4280f4;
+   border-color:#4280f4;
+  }
+  .main2 .row a{
+    overflow: hidden;
+  }
+  .main2 .row a img{
+    float: left;
+    display: inline;
+    margin-right:20px; 
+  }
+  .main2 .row a .text{
+    overflow: hidden;
+  }
+  .main2 .row a .text em{
+    display: inline-block;
+    padding: .5em;
+    line-height: 1em;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    background: #008cd6;
+    margin-right: 5px;
+  }
+  .main2 .row a .text p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 223px;
+  }
+  .main2 .row a .text p:nth-of-type(2){
+    margin-bottom: 26px;
+  }
+  .main2 .row div{
+        margin-bottom: 30px;
+      }
+  /* 媒体 */
+  .main3{
+    overflow: hidden;
+    padding-top: 100px;
+    background: #edefe1;
+  }
+  .main3 .row>div{
+        margin-bottom: 80px;
+      }
+  .main3 img{
+    float: right;
+  }
+  .main3 h4 a{
+    color: #000;
+  }
+  .main3 h4 a:hover{
+    color:#4280f4;
+  } 
+  .main3 p a{
+    color: #999;
+  }
+  .main3 strong{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100px;
+    height: 25px;
+    padding-left: 30px;
+    color: #999;
+  }
+  .weibo{
+    position: absolute;
+    left: 0;
+    bottom: -103px;
+    display: block;
+    width: 25px;
+    height: 20px;
+    background:url(../image/vivo-gb-ico.png) no-repeat -432px -184px;
+  }
+  .weixin{
+    position: absolute;
+    left: 0;
+    bottom: -103px;
+    display: block;
+    width: 25px;
+    height: 20px;
+    background:url(../image/vivo-gb-ico.png) no-repeat -565px -184px;
+  }
+/*  尾部  */
+  .footer{
+    padding:50px 0;
+    background: #222222;
+  }
+  .footer .row1{
+    margin-bottom: 30px;
+  }
+  .link a{
+    float: left;
+    position: relative;
+    margin: 10px 13px;
+  }
+  .link a:nth-of-type(1){
+      position: relative;
+      display: block;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background:#666;
+  }
+  .link a:nth-of-type(1):hover{
+      background:#f04545;
+  }
+  .link a:nth-of-type(1):after{
+    position: absolute;
+    z-index: 10;
+    top:11px;
+    left: 12px;
+    display: block;
+    width:22px;
+    height:25px; 
+    background:url(../image/vivo-gb-ico.png) no-repeat -432px -90px; 
+    content: '';
+
+  }
+  .link a:nth-of-type(2){
+      position: relative;
+      display: block;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background:#666;
+  }
+  .link a:nth-of-type(2):hover{
+      background:#20A900;
+  }
+  .link a:nth-of-type(2):after{
+    position: absolute;
+    z-index: 10;
+    top:11px;
+    left: 12px;
+    display: block;
+    width:22px;
+    height:25px; 
+    background:url(../image/vivo-gb-ico.png) no-repeat -566px -90px; 
+    content: '';
+
+  }
+  .link a:nth-of-type(3){
+      position: relative;
+      display: block;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background:#666;
+  }
+  .link a:nth-of-type(3):hover{
+      background:#008cd6;
+  }
+  .link a:nth-of-type(3):after{
+    position: absolute;
+    z-index: 10;
+    top:11px;
+    left: 12px;
+    display: block;
+    width:22px;
+    height:25px; 
+    background:url(../image/vivo-gb-ico.png) no-repeat -297px -90px; 
+    content: '';
+
+  }
+  .link a:nth-of-type(4){
+      position: relative;
+      display: block;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background:#666;
+  }
+  .link a:nth-of-type(4):hover{
+      background:#2185ee;
+  }
+  .link a:nth-of-type(4):after{
+    position: absolute;
+    z-index: 10;
+    top:11px;
+    left: 12px;
+    display: block;
+    width:22px;
+    height:25px; 
+    background:url(../image/vivo-gb-ico.png) no-repeat -342px -90px; 
+    content: '';
+
+  } 
+  .link a:nth-of-type(5){
+      position: relative;
+      display: block;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background:#666;
+  }
+  .link a:nth-of-type(5):hover{
+      background:#4280f4;
+  }
+  .link a:nth-of-type(3):hover{
+      background:#2185ee;
+  }
+  .link a:nth-of-type(5):after{
+    position: absolute;
+    z-index: 10;
+    top:11px;
+    left: 12px;
+    display: block;
+    width:22px;
+    height:25px; 
+    background:url(../image/vivo-gb-ico.png) no-repeat -206px -90px; 
+    content: '';
+
+  }
+  .link a:nth-of-type(6){
+      position: relative;
+      display: block;
+      width:1px;
+      height:40px;
+      background: #666;
+  }
+  .link a:nth-of-type(7){
+      position: relative;
+      display: block;
+      width: 140px;
+      height: 45px;
+      line-height: 45px;
+      padding-left:35px;
+      border-radius:22.5px;
+      background:#666;
+      color: #fff;
+  }
+  .link a:nth-of-type(7):after{
+    position: absolute;
+    z-index: 10;
+    top:11px;
+    left: 12px;
+    display: block;
+    width:22px;
+    height:25px; 
+    background:url(../image/vivo-gb-ico.png) no-repeat -254px -93px; 
+    content: '';
+
+  }
+  .link a:nth-of-type(7):hover{
+      background:#4280f4;
+  }
+  .service a{
+    padding:5px;
+    color: #666; 
+  }
+  .service a:hover{
+    color:#4280f4; 
+  }
+/* 媒体查询 */
+  /* 1200以上大屏电脑 */
+  @media all and (min-width:1200px){
+      .container{
+        width:1200px;
+      }
+      .navbars ul{
+        margin-right:400px; 
+      }
+  
+  }
+  /*中屏电脑*/
+  @media all and (min-width:992px) and (max-width: 1199px){
+     
+       .navbars ul{
+        margin-right:200px; 
+      }
+      .link{
+      margin-left: 80px;
+    }
+   
+
+      
+  }
+
+  /*平板设备*/
+  @media all and (min-width:768px) and (max-width: 991px){
+
+      .link{
+      margin-left: 80px;
+    }
+    
+  
+    
+  }
+  /*移动设备*/
+  @media all and (max-width: 767px){
+      .navbars{
+        margin-bottom: 0;
+      }
+      .navbar-toggle{
+        margin-top:25px;
+      }
+   
+
+  }
